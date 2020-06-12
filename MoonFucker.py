@@ -19,7 +19,7 @@ import random #import random Module
 from random import choice #Imports Command Module
 from discord.ext import commands #Imports Command Module
 
-client = commands.Bot(command_prefix = '>', case_insensitive=True) #Macht den Prefix vom Bot
+client = commands.Bot(command_prefix = '>', case_insensitive=True) # Prefix
 client.remove_command('help')
 client.remove_command('Help')
 
