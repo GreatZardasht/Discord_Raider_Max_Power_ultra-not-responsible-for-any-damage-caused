@@ -295,7 +295,7 @@ async def ChannelCreator(ctx): #Random command
 
 
 
-client.run('NzIwNzY5NTAzOTU2NDM1MDI1.XuLMoA.NsJeb3cSvzOTMYeN0jhl3qJZ-A0') #Token vom Bot
+client.run('TOKEN HERE') #Token
 
 
 
