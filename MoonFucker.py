@@ -13,7 +13,7 @@ client.remove_command('Help')
 @client.event #Function Decorater
 async def on_ready(): #Bot is Ready
           print('Fucking can Begin!')
-          await client.change_presence(activity=discord.Game("Fucking " + str(len(client.guilds)) + " Server(s) | Prefix: > | Made by Sayz!"), status=discord.Status.idle)
+          await client.change_presence(activity=discord.Game("Sorry Kid its just buisness on " + str(len(client.guilds)) + " Server(s) | Prefix: > | Made by Sayz!"), status=discord.Status.idle)
 
 
 
@@ -34,7 +34,7 @@ async def purge(ctx, amount=12000):
 
 @client.command() #Function Decorater Command!
 async def Credits(ctx): #Random command
-          await ctx.send(f'This Bot was Made by @【ｓａｙｚ．】#0001. Thanks to @Maddison#3383') #Random Command
+          await ctx.send(f'This Bot was Made by @【ｓａｙｚ．】#0001. Thanks to @Maddison#3383 forked by GreatZardasht') #Random Command
 
 
 @client.command()
